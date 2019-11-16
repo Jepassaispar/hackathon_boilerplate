@@ -50,8 +50,8 @@ function activeButtonBed() {
     couchPictureToTheRight();
 }
 
-buttonConvertToCouch.onclick = activeButtonCouch;
-buttonConvertToBed.onclick = activeButtonBed;
+buttonConvertToCouch.onclick = couchPictureToTheRight;
+buttonConvertToBed.onclick = couchPictureToTheLeft;
 
 function changeBackgroundColor(classAdded, removeClass1, removeClass2) {
     body.classList.add(classAdded);
