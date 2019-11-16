@@ -7,8 +7,35 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: pink;
+    background-image: url(/styles/img/RedPage/background_canap_rouge.jpg);
 }
+
+/* BACKGROUND CHANGE */
+
+.bagroundRedPage {
+    background-image: url(/styles/img/RedPage/background_canap_rouge.jpg)
+}
+
+.backgroundBluePage {
+    background-image: url(/styles/img/BluePage/background_canap_bleu.jpg);
+}
+
+.backgroundYellowPage {
+    background-image: url(/styles/img/YellowPage/background_canap_jaune.jpg);
+}
+
+
+/*  */
+
+/* BUTTON CHANGE */
+
+.btnRedPage {}
+
+.btnBluePage {}
+
+.btnYellowPage {}
+
+/*  */
 
 input:focus {
     outline: none !important;
@@ -23,15 +50,18 @@ input:focus {
 
 #mainContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 95vh;
 }
 
-#brandDescription {
+#brandDescriptionContainer {
     text-align: justify;
     grid-column: 1/2;
     grid-row: 3/6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #inputContainer,
@@ -42,17 +72,75 @@ input:focus {
 
 #inputContainer {
     grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #couchPictureContainer {
     grid-row: 3/6;
+    position: relative;
+    z-index: 1;
+}
+
+#couchPicture {
+    width: inherit;
+    position: absolute;
+    height: 100%;
 }
 
 #priceContainer {
     grid-row: 6/7;
+    display: flex;
+    justify-content: center;
 }
 
 #decorationContainer {
     grid-column: 3/4;
-    grid-row: 3/6;
+    grid-row: 1/6;
+    z-index: 0;
+}
+
+#cactusPicture {
+    padding-right: 50vw;
+    margin-right: 50vw;
+}
+
+/* BUTTONS */
+
+.btn {
+    border-radius: 50px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.inputColor {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.boxShadow {
+    box-shadow: 2px 2px 2px gray;
+}
+
+.buttonToHide {
+    background: none;
+    border: none;
+}
+
+/* COLOR */
+
+.couchToTheRight {
+    transform: translateX(-1200px);
+    transition: all 1.5s ease-in-out;
+}
+
+.couchToTheLeft {
+    transition: all 1.5s ease-in-out;
 }

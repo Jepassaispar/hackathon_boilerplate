@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="28px" viewBox="0 0 35 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Mobile/Icon/Burger</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile/Icon/Burger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#FFFFFF">
+            <rect id="barre-bas-desktop-menu" x="0" y="0" width="34.3999979" height="4.79999971"></rect>
+            <rect id="barre-milieu-desktop-menu" x="0" y="11.1999993" width="34.3999979" height="4.79999971"></rect>
+            <rect id="barre-haut-desktop-menu" x="0" y="23.1999986" width="25.5999985" height="4.79999971"></rect>
+        </g>
+    </g>
+</svg>
