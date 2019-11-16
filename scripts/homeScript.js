@@ -22,8 +22,30 @@ function couchPictureToTheLeft() {
     couchPicture.classList.add("couchToTheLeft");
 }
 
-buttonConvertToCouch.onclick = couchPictureToTheLeft;
-buttonConvertToBed.onclick = couchPictureToTheRight;
+function changeImageButtonCouch() {
+    buttonConverToCouch.classList.toggle("btnCouchSelected")
+    if (buttonConverToCouch.classList("btnCouchSelected")) {
+        buttonConverToCouch.classList.
+    }
+}
+
+function changeImageButtonBed() {
+    buttonConverToCouch.classList.toggle("btnBedSelected")
+    buttonConverToCouch.classList.toggle("btnBedUnselected")
+}
+
+function activeButtonCouch() {
+    changeImageButtonCouch();
+    couchPictureToTheLeft();
+}
+
+function activeButtonBed() {
+    changeImageButtonBed();
+    couchPictureToTheRight();
+}
+
+buttonConvertToCouch.onclick = activeButtonCouch;
+buttonConvertToBed.onclick = activeButtonBed;
 
 function changeBackgroundColor(classAdded, removeClass1, removeClass2) {
     body.classList.add(classAdded);
@@ -57,6 +79,7 @@ function changePageToYellow() {
     changeBackgroundColor('backgroundYellowPage', 'backgroundBluePage', 'backgroundRedPage');
     changeCouchColor('/styles/img/YellowPage/canapé_jaunes_large.png')
 }
+
 
 
 buttonColor1.onclick = changePageToRed;
