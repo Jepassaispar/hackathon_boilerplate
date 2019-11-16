@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./reset.css">
-    <title>¯\_(ツ)_/¯ 2019-Hackathon</title>
+    <link rel="stylesheet" href="styles/homeStyle.css">
+    <script src="scripts/homeScript.js"></script>
+
+    <title>Home</title>
 </head>
+
 <body>
-    <h1>Good luck : )</h1>
+
+    <header id='header'>
+        <span class="logo">couchy</span>
+        <span id="burgerMenuIcon">burger Icon</span>
+    </header>
+
+    <div id="mainContainer" class="container">
+        
+        <p id="brandDescription" class="description" id="">A stylish design, a great comfort, a smooth conversion, with
+            <span class="logo">couchy</span> at home, you will
+            never feel tired anymore.
+        </p>
+
+
+        <div id="inputContainer" class="container">
+            <div id="inputConvertContainer" class="inputContainer">
+                <button id="buttonConvertToCouch" class="btn inputConvertContainer">
+                    Plie
+                </button>
+                <button id="buttonConvertToBed" class="btn inputConvert">
+                    Déplie
+                </button>
+            </div>
+            <div id="colorContainer" class="inputContainer">
+                <button id="buttonColor1" class="btn inputColor">
+                    Red
+                </button>
+                <button id="buttonColor1" class="btn inputColor">
+                    Blue
+                </button>
+                <button id="buttonColor1" class="btn inputColor">
+                    Green
+                </button>
+            </div>
+        </div>
+
+
+        <div id="couchPictureContainer" class="container">
+            <img src="/styles/img/test-couch.jpg" alt="couch">
+        </div>
+
+        <div id="priceContainer" class="container">
+            <button id="buttonBuy" class="btn">
+                BUY
+            </button>
+            <div id="priceDisplay" class="display">
+                <span>
+                    5000€
+                </span>
+                <span>
+                    999€
+                </span>
+            </div>
+        </div>
+
+        <div id="decorationContainer" class="container">
+            <img src="/styles/img/test-plant.jpg" alt="flower">
+        </div>
+    </div>
+
+
+
+
+
+    <footer></footer>
+
 </body>
+
 </html>
