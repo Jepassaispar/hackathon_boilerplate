@@ -23,15 +23,21 @@ function couchPictureToTheLeft() {
 }
 
 function changeImageButtonCouch() {
-    buttonConverToCouch.classList.toggle("btnCouchSelected")
-    if (buttonConverToCouch.classList("btnCouchSelected")) {
-        buttonConverToCouch.classList.
+    buttonConvertToCouch.classList.toggle("btnCouchSelected")
+    if (buttonConvertToCouch.classList("btnCouchSelected")) {
+        buttonConvertToCouch.classList("btnCouchSelected").src = 'styles/img/CTa/CTa/Desktop/CTA/Open Sofa Selec.svg'
+    } else {
+        buttonConvertToCouch.classList("btnCouchSelected").src = 'styles/img/CTa/CTa/Desktop/CTA/Open Sofa.svg'
     }
 }
 
 function changeImageButtonBed() {
-    buttonConverToCouch.classList.toggle("btnBedSelected")
-    buttonConverToCouch.classList.toggle("btnBedUnselected")
+    buttonConvertToBed.classList.toggle("btnBedSelected")
+    if (buttonConvertToBed.classList("btnBedSelected")) {
+        buttonConvertToBed.classList("btnCouchSelected").src = '/styles/img/CTa/CTa/Desktop/CTA/Closed Sofa.svg'
+    } else {
+        buttonConvertToBed.classList("btnCouchSelected").src = '/styles/img/CTa/CTa/Desktop/CTA/ClosedSofa Non sélec.svg'
+    }
 }
 
 function activeButtonCouch() {
