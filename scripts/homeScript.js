@@ -37,7 +37,6 @@ function changeImageButtonCouch() {
 function changeImageButtonBed() {
     buttonConvertToBed.classList.toggle("btnBedSelected")
     buttonConvertToBed.classList.toggle("btnBed")
-
 }
 
 function activeButtonCouch() {
