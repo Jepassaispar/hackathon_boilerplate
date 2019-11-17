@@ -180,21 +180,19 @@ body {
 }
 
 .btnCouch {
-    content: url("../styles/img/btn-couch/couch.svg");
-    height: auto;
-    width: auto;
+    content: url(../styles/img/btn-couch/couch.svg);
 }
 
 .btnBed {
-    content: url("../styles/img/btn-couch/bed.svg")
+    content: url(../styles/img/btn-couch/bed.svg)
 }
 
 .btnCouchSelected {
-    content: url("../styles/img/btn-couch/couch-selected.svg")
+    content: url(../styles/img/btn-couch/couch-selected.svg)
 }
 
 .btnBedSelected {
-    content: url("../styles/img/btn-couch/bed-selected.svg")
+    content: url(../styles/img/btn-couch/bed-selected.svg)
 }
 
 /* COLOR */
