@@ -17,7 +17,7 @@ html {
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url(styles/img/RedPage/background_canap_rouge.jpg);
+    background-image: url(/styles/img/RedPage/background_canap_rouge.jpg);
     font-family: 'Work Sans', sans-serif;
     margin: .5em;
 }
@@ -25,15 +25,15 @@ body {
 /* BACKGROUND CHANGE */
 
 .bagroundRedPage {
-    background-image: url(./styles/img/RedPage/background_canap_rouge.jpg)
+    background-image: url(styles/img/RedPage/background_canap_rouge.jpg)
 }
 
 .backgroundBluePage {
-    background-image: url(./styles/img/BluePage/background_canap_bleu.jpg);
+    background-image: url(/img/BluePage/background_canap_bleu.jpg);
 }
 
 .backgroundYellowPage {
-    background-image: url(./styles/img/YellowPage/background_canap_jaune.jpg);
+    background-image: url(./img/YellowPage/background_canap_jaune.jpg);
 }
 
 /*  */
