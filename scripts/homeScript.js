@@ -87,8 +87,8 @@ function removeBoxShadow(button) {
 
 function changePageToRed() {
     changeBackgroundColor('backgroundRedPage', 'backgroundBluePage', 'backgroundYellowPage');
-    changeCouchColor('/styles/img/RedPage/canapé_rouges_large_2.png');
-    changeFurniture('/styles/img/RedPage/cactus_canapé_rouge.png');
+    changeCouchColor('styles/img/RedPage/canapé_rouges_large_2.png');
+    changeFurniture('styles/img/RedPage/cactus_canapé_rouge.png');
     addBoxShadow(imgButtonColor2);
     removeBoxShadow(imgButtonColor1);
     removeBoxShadow(imgButtonColor3);
@@ -96,8 +96,8 @@ function changePageToRed() {
 
 function changePageToBlue() {
     changeBackgroundColor('backgroundBluePage', 'backgroundRedPage', 'backgroundYellowPage');
-    changeCouchColor('/styles/img/BluePage/canapé_bleus_large.png');
-    changeFurniture('/styles/img/BluePage/lampe_canap_bleu.png');
+    changeCouchColor('styles/img/BluePage/canapé_bleus_large.png');
+    changeFurniture('styles/img/BluePage/lampe_canap_bleu.png');
     addBoxShadow(imgButtonColor1);
     removeBoxShadow(imgButtonColor2);
     removeBoxShadow(imgButtonColor3);
@@ -105,8 +105,8 @@ function changePageToBlue() {
 
 function changePageToYellow() {
     changeBackgroundColor('backgroundYellowPage', 'backgroundBluePage', 'backgroundRedPage');
-    changeCouchColor('/styles/img/YellowPage/canapé_jaunes_large.png');
-    changeFurniture('/styles/img/YellowPage/plante_canap_jaune.png')
+    changeCouchColor('styles/img/YellowPage/canapé_jaunes_large.png');
+    changeFurniture('styles/img/YellowPage/plante_canap_jaune.png')
     addBoxShadow(imgButtonColor3);
     removeBoxShadow(imgButtonColor2);
     removeBoxShadow(imgButtonColor1);
